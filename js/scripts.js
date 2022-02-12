@@ -37,7 +37,6 @@ function updateBalance(amount, plusMinus) {
     }
 }
 
-
 // Deposit Handler 
 document.getElementById('deposit-btn').addEventListener('click', function() {
     const depositAmount = getBankingInput('deposit-field');

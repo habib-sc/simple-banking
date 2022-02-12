@@ -22,5 +22,7 @@ document.getElementById('login-btn').addEventListener('click', function() {
     // Checking email and password they matching or not 
     if (email == 'customer@gmail.com' && password == 'password') {
         window.location.href = 'banking.html';
+    } else {
+        alert('Please Enter Valid Email or Password');
     }
 })
